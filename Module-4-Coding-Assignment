@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>UM html</title>
+ 
+<style>
+
+</style>
+
+</head>
+
+<body>
+<b><h1>Module 4 Coding Assignment</h1></b>
+<p>I used alert() for my browser work environment.</p>
+
+
+<div id="1a"><div>
+
+
+
+
+
+
+
+<script>
+// I replaced console.log() with alert() to match my browser as a work environment. 
+
+
+
+
+
+
+ function speak2(name) {
+var speakWord = "Goodbye, ";
+if (name) {alert(speakWord + " " + name);   }
+
+else {
+alert("bye");
+}
+
+ }
+
+
+
+ function speak(name) {
+var speakWord = "Hello, ";
+if (name) {alert(speakWord + " " + name);}
+
+else {
+alert("bye");
+}
+ }
+
+
+
+(function () {
+var speakWord = "Hello";
+var speakWord = "Good Bye";
+
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+for (var i = 0; i < names.length; i++) {
+var firstLetter = names[i].charAt(0).toLowerCase();
+
+
+
+if (firstLetter === 'j') {
+//    byeSpeaker.speak(names[i]);
+//alert(speakWord.speak(names[i]));
+speak2(names[i]);
+
+
+  } 
+
+
+else {
+//    helloSpeaker.speak(names[i]);
+//alert(speakWord.speak2(names[i]));
+speak(names[i]);
+
+//document.getElementById('1a').innerHTML = names;
+  }
+
+}
+
+alert("whatever, the end.");
+
+})();
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+</br></br></br></br></br></br></br></br>
+
+
+
+
+
